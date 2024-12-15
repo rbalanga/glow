@@ -6,7 +6,7 @@ function changeBg() {
     let glow3 = document.getElementById("glow-id3");
     if (glowActive == 1){
         glow1.style.opacity = ".4";
-        glow2.style.opacity = "1";
+        glow2.style.opacity = ".9";
         glow3.style.opacity = "0";
         glowActive = 2;
         return;
@@ -14,12 +14,12 @@ function changeBg() {
     if (glowActive == 2){
         glow1.style.opacity = "0";
         glow2.style.opacity = ".4";
-        glow3.style.opacity = "1";
+        glow3.style.opacity = ".9";
         glowActive = 3;
         return;
     }
     if (glowActive == 3){
-        glow1.style.opacity = "1";
+        glow1.style.opacity = ".9";
         glow2.style.opacity = "0";
         glow3.style.opacity = ".4";
         glowActive = 1;
