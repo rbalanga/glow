@@ -25,7 +25,7 @@ body{
     max-width:65vw;
     max-height: stretch;
     aspect-ratio: 4 / 3;
-    background-image: url(family.jpg);
+    background-image: url(two-bikers.jpg);
     background-size: cover;
     position: fixed;
     inset: 0px;
@@ -39,10 +39,10 @@ body{
 .glow-image2{
     height:auto;
     width:100vw;
-    max-width:65vw;
+    max-width:65vw; 
     max-height: stretch;
     aspect-ratio: 4 / 3;
-    background-image: url(two-bikers.jpg);
+    background-image: url(two-girls-crossing.jpg);
     background-size: cover;
     position: fixed;
     inset: 0px;
@@ -58,7 +58,7 @@ body{
     max-width:65vw;
     max-height: stretch;
     aspect-ratio: 4 / 3;
-    background-image: url(two-girls-crossing.jpg);
+    background-image: url(family.jpg);
     background-size: cover;
     position: fixed;
     inset: 0px;
