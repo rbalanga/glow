@@ -65,5 +65,6 @@ body{
     margin: auto;
     mix-blend-mode: screen;
     background-blend-mode: screen;
+    opacity: .9;
     transition: opacity 1s;
 }
